@@ -2,6 +2,7 @@ import React from 'react'
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 import Nav from './Nav'
+import TopBanner from './TopBanner'
 
 class Header extends React.Component {
 
@@ -9,8 +10,13 @@ class Header extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <img src="./img/housecoffee-header.jpg" alt="Header Picture" className="headerLogo"></img>
-        <Nav />
+                <TopBanner />
+                <div className="headerPic">
+<div className="headerContent">
+    
+<Nav />
+</div>
+                </div>
             </React.Fragment>
 
         )

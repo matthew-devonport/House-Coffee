@@ -6,19 +6,81 @@
   
   html,
   body {
-    color: #021d22;
-    background-color: white;
+    color: whitesmoke;
+    background-color: #021d22;
     font-family: 'Montserrat', 'Arial', 'sans-serif';
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    height: 100%;
+    width: auto;
+    max-width: 100vw;
   }
 
 
   /* --- Header --- */
 
-  .headerLogo {
-      display: block;
-      height: 100%;
-      width: auto;
+.topBannerMain {
+    display: flex;
+    height: 10%;
+    width: auto;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+  .headerPic {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.454),rgba(255, 255, 255, 0.454)), url(./img/housecoffee-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    width: 1920px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+  /* --- Nav --- */
+
+.navFlex {
+    display: flex;
+    height: 100%;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+
+
+}  
+
+.navMain {
+    height: 100%;
+    width: auto;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} 
+
+.navLink {
+    height: 100%;
+    width: auto;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.mainLogo {
+    height: 300px;
+    width: auto;
+}
+
+.links {
+    color: black;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+}
