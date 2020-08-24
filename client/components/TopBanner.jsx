@@ -1,9 +1,7 @@
 import React from 'react'
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
-import Header from './Header'
-import Main from './Main'
-import Footer from './Footer'
+
 
 class Home extends React.Component {
 
@@ -11,9 +9,10 @@ class Home extends React.Component {
     render() {
         return (
             <React.Fragment>
-              <Header />
-              <Main />
-              <Footer />
+              <div className="topBannerMain">
+          <div>CALL US TODAY!</div>
+          <div className="headerNumber"><a href="tel:021842319">021 842 319</a></div>
+              </div>
             </React.Fragment>
 
         )
