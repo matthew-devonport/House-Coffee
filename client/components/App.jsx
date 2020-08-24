@@ -1,31 +1,24 @@
 import React from 'react'
+import { HashRouter as Router, Route } from 'react-router-dom';
 
-import { getFruits } from '../apiClient'
+import Home from './Home'
+import Contact from './Contact';
+
 
 class App extends React.Component {
-  state = {
-    fruits: []
-  }
-
-  componentDidMount () {
-    getFruits()
-      .then(fruits => {
-        this.setState({fruits})
-      })
-  }
+ 
 
   render () {
     return (
-      <div className='app'>
-        <h1>Fullstack Boilerplate</h1>
-        <ul>
-          {this.state.fruits.map(fruit => (
-            <li key={fruit}>{fruit}</li>
-          ))}
-        </ul>
-      </div>
+      <Router>
+        <div>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/contact' component={Contact} />
+        </div>
+      </Router>
     )
   }
 }
+
 
 export default App

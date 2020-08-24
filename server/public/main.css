@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    color: #021d22;
+    background-color: white;
+    font-family: 'Montserrat', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+  }
+
+
+  /* --- Header --- */
+
+  .headerLogo {
+      display: block;
+      height: 100%;
+      width: auto;
+  }

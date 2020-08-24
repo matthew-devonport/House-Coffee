@@ -9,7 +9,7 @@
     "dev:server": "nodemon server",
     "build": "webpack --config client/webpack.config.js",
     "server": "node server",
-    "start": "run-s build server",
+    "start": "node server",
     "test": "jest --verbose --watchAll"
   },
   "babel": {
@@ -29,7 +29,8 @@
     ]
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -51,7 +52,7 @@
     "react-dom": "^16.8.6",
     "superagent": "^5.0.2",
     "webpack": "4",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
