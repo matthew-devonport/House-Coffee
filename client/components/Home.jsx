@@ -2,6 +2,7 @@ import React from 'react'
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 import Header from './Header'
+import Main from './Main'
 
 class Home extends React.Component {
 
@@ -10,6 +11,7 @@ class Home extends React.Component {
         return (
             <React.Fragment>
               <Header />
+              <Main />
             </React.Fragment>
 
         )
