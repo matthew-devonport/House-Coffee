@@ -11,6 +11,7 @@ class Home extends React.Component {
             <React.Fragment>
               <div className="topBannerMain">
           <div>CALL US TODAY!</div>
+          <div className="headerNumber">021 842 319</div>
               </div>
             </React.Fragment>
 
