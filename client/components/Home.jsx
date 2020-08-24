@@ -3,6 +3,7 @@ import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 import Header from './Header'
 import Main from './Main'
+import Footer from './Footer'
 
 class Home extends React.Component {
 
@@ -12,6 +13,7 @@ class Home extends React.Component {
             <React.Fragment>
               <Header />
               <Main />
+              <Footer />
             </React.Fragment>
 
         )
