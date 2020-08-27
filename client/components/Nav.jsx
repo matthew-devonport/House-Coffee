@@ -1,10 +1,6 @@
 import React from 'react'
 
-
-
-
 class Nav extends React.Component {
-
 
     render() {
         return (
@@ -15,11 +11,11 @@ class Nav extends React.Component {
     </div>
 <div className="navLink">
     <div className="links">HOME</div>
+    <div className="links">ABOUT</div>
     <div className="links">COFFEE</div>
     <div className="links">CONTACT</div>
 </div>
 </div>
-
             </React.Fragment>
 
         )
