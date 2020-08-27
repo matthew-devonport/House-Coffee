@@ -2,7 +2,7 @@ import React from 'react'
 import { HashRouter as NavLink, Link } from 'react-router-dom';
 
 
-class Contact extends React.Component {
+class About extends React.Component {
 
 
     render() {
@@ -16,4 +16,4 @@ class Contact extends React.Component {
 }
 
 
-export default Contact
+export default About
