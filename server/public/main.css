@@ -225,6 +225,7 @@ color: whitesmoke;
     margin-top: 2%;
 }
 
+
 /* --- Footer --- */
 
 .footerFlex {
@@ -246,4 +247,38 @@ color: whitesmoke;
 .footerInfo {
     margin-right: 7.5%;
     margin-bottom: 1%;
+}
+
+/* --- ABOUT --- */
+
+.aboutBody {
+    display: flex;
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #fffffff5;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+    border-radius: 2px;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.aboutPic {
+display: block;
+height: 300px;
+width: auto;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+box-shadow: 10px 10px 5px #ccc;
+-moz-box-shadow: 10px 10px 5px #ccc;
+-webkit-box-shadow: 10px 10px 5px #ccc;
+-khtml-box-shadow: 10px 10px 5px #ccc;
 }
