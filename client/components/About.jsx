@@ -12,7 +12,7 @@ class About extends React.Component {
         return (
             <React.Fragment>
               <Header />
-              <div className="mainTitle borderBottom">WHO ARE HOUSE COFFEE?
+              <div className="mainTitle borderBottom">WHO ARE HOUSE COFFEE? WHAT DO WE DO?
               </div>
               <div className="aboutBody">
               <img src="./img/about.webp" alt="About Picture" className="aboutPic"></img>     

@@ -41,6 +41,9 @@ a {
     text-transform: uppercase;
 }
 
+ul {
+    list-style-type: none;
+}
 
   /* --- Header --- */
 
@@ -281,4 +284,68 @@ box-shadow: 10px 10px 5px #ccc;
 -moz-box-shadow: 10px 10px 5px #ccc;
 -webkit-box-shadow: 10px 10px 5px #ccc;
 -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+/* --- CONTACT ---*/
+
+.contactBody {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #fffffff5;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    border-radius: 2px;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.contactTitle {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+
+
+.infoTitle {
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.contactText {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.contactMargin {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.contactInformation {
+    margin-top: 2.1%;
 }
