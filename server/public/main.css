@@ -168,12 +168,27 @@ color: whitesmoke;
     margin-right: 12%;
 }
 
+@media screen and (max-width: 1100px) { 
+.mainTitle {
+    font-size: 26px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+}    
+
 .mainText {
     font-size: 18px;
     font-weight: 500;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 2%;
+}
+
+@media screen and (max-width: 1100px) { 
+.mainText {  
+    margin-left: 10%;
+    margin-right: 10%;
+}
 }
 
 .sellTitle {
@@ -187,6 +202,13 @@ color: whitesmoke;
     margin-left: 21%;
     margin-right: 21%;
 }
+
+@media screen and (max-width: 1100px) { 
+    .sellTitle {
+        font-size: 29px;
+    }
+    }  
+
 
 .learnButton {
     background-color: rgba(32, 24, 24, 0.966);
@@ -239,6 +261,12 @@ color: whitesmoke;
     align-content: center;
     font-size: 15px;
 }
+
+@media screen and (max-width: 1100px) { 
+.footerFlex {
+padding-top: 16px;
+}
+}    
 
 .footerLink {
     margin-left: 1%;
