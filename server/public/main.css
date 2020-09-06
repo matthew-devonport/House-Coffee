@@ -192,6 +192,13 @@ color: whitesmoke;
 }
 }
 
+@media screen and (max-width: 800px) { 
+    .mainText {  
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    }
+
 .sellTitle {
     display: flex;
     font-size: 33px;
@@ -210,6 +217,14 @@ color: whitesmoke;
         margin-bottom: 3%;
     }
     }  
+
+@media screen and (max-width: 800px) { 
+    .sellTitle {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    }  
+
 
 
 .learnButton {
@@ -286,6 +301,12 @@ padding-top: 12px;
 }
 
 @media screen and (max-width: 1100px) { 
+.footerLink {
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 1100px) { 
 .numberLink{
     margin-right: 4%;
 }
@@ -294,6 +315,19 @@ padding-top: 12px;
 .footerInfo {
     margin-right: 7.5%;
     margin-bottom: 1%;
+}
+
+@media screen and (max-width: 1100px) { 
+.footerInfo {
+    margin-right: 6.5%;
+}
+}
+
+@media screen and (max-width: 1100px) { 
+.footerInfo {
+    font-size: 14px;
+    margin-right: 5.5%;
+}
 }
 
 /* --- ABOUT --- */
