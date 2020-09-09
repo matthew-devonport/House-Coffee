@@ -60,10 +60,22 @@ ul {
     padding-bottom: 1%;
 }
 
+@media screen and (max-width: 450px) { 
+.topBannerMain {
+    font-size: 15px;
+}
+}
+
 .headerNumber {
     color: #c4a46a;
     font-weight: 600;
     margin-left: 0.5%;
+}
+
+@media screen and (max-width: 450px) { 
+.headerNumber {
+    margin-left: 2%;
+}
 }
 
   .headerPic {
@@ -115,6 +127,13 @@ ul {
     width: auto;
 }
 
+@media screen and (max-width: 450px) { 
+.mainLogo {
+    height: 250px;
+}
+}
+    
+
 .links {
     color: black;
     font-weight: 700;
@@ -138,6 +157,18 @@ ul {
 .links:hover {
 background-color: black;
 color: whitesmoke;
+}
+
+@media screen and (max-width: 450px) { 
+.links {
+   font-size: 17px;
+}
+}
+
+@media screen and (max-width: 390px) { 
+.links {
+    font-size: 15.5px;
+}
 }
 
 /* --- Main --- */
@@ -177,6 +208,15 @@ color: whitesmoke;
 }
 }    
 
+@media screen and (max-width: 450px) { 
+.mainTitle {
+    font-size: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-top: 2%;
+}
+}    
+
 .mainText {
     font-size: 18px;
     font-weight: 500;
@@ -189,6 +229,25 @@ color: whitesmoke;
 .mainText {  
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+}
+
+@media screen and (max-width: 800px) { 
+.mainText {  
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+}
+
+@media screen and (max-width: 450px) { 
+.mainText {  
+    font-size: 14px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 }
 
@@ -211,6 +270,23 @@ color: whitesmoke;
     }
     }  
 
+@media screen and (max-width: 800px) { 
+    .sellTitle {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    }  
+
+@media screen and (max-width: 450px) { 
+    .sellTitle {
+        font-size: 18px;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 4%;
+        margin-bottom: 6%;
+    }
+    }
+
 
 .learnButton {
     background-color: rgba(32, 24, 24, 0.966);
@@ -227,6 +303,13 @@ color: whitesmoke;
     margin-left: 5%;
     margin-right: 5%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 450px) { 
+.learnButton {   
+    font-size: 14px;
+    margin-bottom: 9%;
+}
 }
 
 .domoButton {
@@ -253,6 +336,11 @@ color: whitesmoke;
     margin-top: 2%;
 }
 
+@media screen and (max-width: 450px) { 
+.brandPic {   
+    height: 245px;
+}
+}
 
 /* --- Footer --- */
 
@@ -286,14 +374,42 @@ padding-top: 12px;
 }
 
 @media screen and (max-width: 1100px) { 
+.footerLink {
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 1100px) { 
 .numberLink{
     margin-right: 4%;
 }
 }
 
 .footerInfo {
-    margin-right: 7.5%;
+    display: flex;
+    justify-content: center;
     margin-bottom: 1%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1100px) { 
+.footerInfo {
+    margin-left: 4.5%;
+}
+}
+
+@media screen and (max-width: 800px) { 
+.footerInfo {
+    font-size: 12px;
+    margin-right: 1.5%;
+}
+}
+
+@media screen and (max-width: 450px) { 
+.footerInfo {
+    margin-top: 5.5%;
+    margin-bottom: 3%;
+}
 }
 
 /* --- ABOUT --- */
@@ -329,6 +445,27 @@ box-shadow: 10px 10px 5px #ccc;
 -webkit-box-shadow: 10px 10px 5px #ccc;
 -khtml-box-shadow: 10px 10px 5px #ccc;
 }
+
+@media screen and (max-width: 1100px) { 
+.aboutPic {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+}
+
+@media screen and (max-width: 450px) { 
+.aboutPic {
+    margin-top: 10%;
+    height: 240px;
+}
+}
+
+@media screen and (max-width: 390px) { 
+.aboutPic {
+    height: 220px;
+}
+}
+
 
 /* --- CONTACT ---*/
 
