@@ -453,6 +453,19 @@ box-shadow: 10px 10px 5px #ccc;
 }
 }
 
+@media screen and (max-width: 450px) { 
+.aboutPic {
+    margin-top: 10%;
+    height: 240px;
+}
+}
+
+@media screen and (max-width: 390px) { 
+.aboutPic {
+    height: 220px;
+}
+}
+
 
 /* --- CONTACT ---*/
 
