@@ -72,6 +72,12 @@ ul {
     margin-left: 0.5%;
 }
 
+@media screen and (max-width: 800px) { 
+.headerNumber {
+    margin-left: 1.5%;
+}
+}
+
 @media screen and (max-width: 450px) { 
 .headerNumber {
     margin-left: 2%;
@@ -489,9 +495,34 @@ box-shadow: 10px 10px 5px #ccc;
     -o-border-radius: 2px;
 }
 
+@media screen and (max-width: 1100px) { 
+.contactBody {
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+}
+
 .contactTitle {
-  font-size: 21px;
-  font-weight: 600;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1100px) { 
+.contactTitle {
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width: 800px) { 
+.contactTitle {
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width: 450px) { 
+.contactTitle {
+    font-size: 20px;
+}
 }
 
 .contactInfo {
@@ -503,7 +534,17 @@ box-shadow: 10px 10px 5px #ccc;
     margin-left: 10%;
 }
 
+@media screen and (max-width: 1100px) { 
+.contactInfo {
+    font-size: 27px;
+}
+}
 
+@media screen and (max-width: 450px) { 
+.contactInfo {
+    font-size: 18px;
+}
+}
 
 .infoTitle {
     display: flex;
@@ -514,6 +555,30 @@ box-shadow: 10px 10px 5px #ccc;
     margin-bottom: 3%;
 }
 
+@media screen and (max-width: 1100px) { 
+.infoTitle {
+    font-size: 40px;
+}
+}
+
+@media screen and (max-width: 800px) { 
+.infoTitle {
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width: 450px) { 
+.infoTitle {
+    font-size: 21px;
+}
+}
+
+@media screen and (max-width: 450px) { 
+.infoTitle {
+    font-size: 19px;
+}
+}
+
 .contactText {
     font-size: 18px;
     font-weight: 500;
@@ -522,9 +587,28 @@ box-shadow: 10px 10px 5px #ccc;
     margin-top: 2%;
 }
 
+@media screen and (max-width: 1100px) { 
+.contactText {
+    margin-bottom: 4%;
+}
+}
+
+
 .contactMargin {
     margin-left: 5%;
     margin-bottom: 2%;
+}
+
+@media screen and (max-width: 1100px) { 
+.contactMargin {
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width: 450px) { 
+.contactMargin {
+    font-size: 20px;
+}
 }
 
 .contactInformation {
